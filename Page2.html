@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>comprendre pourquoi il ne faut jamais manger de chips</title>
+    <style type="text/css">
+        .styleparagraphe {
+            font-family:'Verdana';
+            font-style:italic;
+            color:darkblue
+        }
+        .stylepol {font-family:'Times New Roman', Times, serif;
+                   font-style:initial;
+                   color:forestgreen
+        }
+        label {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               font-style:oblique;
+               color:darkolivegreen;
+        }
+        legend {font-family:Tahoma;
+                font-style:inherit;
+                color:darkblue;
+        }
+       
+    </style>
+    <script type="text/javascript">
+        function VerifierFormulaire() {
+            if (!document.getElementById("genre la").value||
+            !document.getElementById("ici").value||
+            !document.getElementById("et la").value||
+            !document.getElementById("chips").value||
+            !document.getElementById("mdp").value||
+            !document.getElementById("Blablabla").value) {
+                alert("Etes vous bien sur d'avoir marqué des trucs partout ?");
+                return false;
+            }
+            if (document.getElementById("sur").value =="Non") {
+                alert("Soyez sur");
+                return false;
+            }
+            return true;
+        }
+
+    </script>
+</head>
+<body style="text-align:center">
+    <a href="#saitdeja"title="cliquez ici si vous etes déja au courant">Je suis deja au courant</a></br>
+    <h1 id="uppage" style=color:coral> Comprendre pourquoi il ne faut jamais manger de chips de toute sa vie </h1>
+    <p class="styleparagraphe"> Si on regarde qui mange le plus de chips ? 
+    <br /> <strong>Les pauvres !</strong> 
+    <br /> Et pourquoi ? 
+    <br /> parce qu'ils n'ont pas d'argent pour acheter autre chose !
+    <br />
+    <a href="http://www.lays.fr/" style="color:red">Découvrez qui est l'enemi !</a>
+    <br />
+    </p>
+    <h2 style="color:green">S'inscrire a la ligue antichips</h2>
+    <br />
+    <form action="page3.html" method="post">
+        <fieldset>
+            <legend style="text-align: center">marquez ici des trucs</legend>
+            <label>genre la :</label>
+            <input id="genre la" type="text" />
+            <br />
+            <label>ici</label>
+            <input id=" ici" type="text" />
+            <br />
+            <label>et la</label>
+            <input id=" et la" type="text" />
+            <legend style="text-align: center">mangez vous des chips ?</legend>
+            <select id="chips">
+                <option value="Y">Oui</option>
+                <option value="N">Non</option>
+            </select>
+            <br />
+            <label>ici vous pouvez taper des trucs sans les voirs c'est rigolo</label>
+            <br />
+            <input id="mdp" type="password" />
+            <br />
+            <label> vous aimez bien cocher des trucs ? si oui faites vous plaisir ici</label>
+            <br />
+            <input id="lol" type="checkbox" />
+            <br />
+            <label>Racontez votre vie ici, de toutes façons tout le monde s'en tape</label>
+            <br />
+            <textarea id="Blablabla" style="height:100px"></textarea>
+            <br />
+            <label>Vous etes vraiment sur que vous ne mangez pas de chips ?</label>
+            <br />
+            <input id="sur" type="text" />
+        </fieldset>
+        <br />
+        <input type="submit" value="clique si t'es bien coiffé" onclick="return VerifierFormulaire()" />
+        <image name="image1.png" />
+            <p>On va mettre des trucs qui descendent un peu
+                <ul>
+                    <li>ça descend</li>
+                    <li>un peu</li>
+                    <li>plus</li>
+                    <li>a</li>
+                    <li>chaque</li>
+                    <li>fois</li>
+                </ul>
+                <ol>
+                    <li>maintenant</li>
+                    <li>T'as</li>
+                    <li>des</li>
+                    <li>chiffres</li>
+                    <li>devant</li>
+                </ol>
+                <ul>
+                    <li>C'est</li>
+                    <li>rigolo</li>
+                    <li>ça</li>
+                </ul>
+            
+            </p>
+        
+        <h4 id="saitdeja">Maintenant qu'on a pas mal de texte ...</h4>
+        <a href="#uppage">On va pouvoir tenter un renvoi de page</a></br>
+        <a href="page4.html#undoigtdanstoncul">Si on clique la il se passe quoi ?</a></br>
+        <a href="mailto:niquetasoeur@taurapasmonmail.com">Envoyez moi un email !</a></br>
+        <a href="on-sen-bat-les-couilles.mp3">un peu de musique ?</a>
+
+        <h3>Vous aimez les photos ?</h3>
+        <p>voila une photo : </br>
+        <img src="img/ceciestuneimage.jpg" alt="Ceci est une image" title="Ceci est une image ! Dingue !" /></br>
+        La classe hein ?</br>
+        Vous aimez bien les jolies filles ?</br>
+        On va mettre une petite image pour pas avoir de problemes avec le FBI mais vous pouvez cliquer dessus pour la voir a poil ;)</br>
+        <a href="img/fuck.jpg" target=_blank><img src="img/fbi.jpeg" alt="photo de femme" title="Clique pour la voir a poil" /></a>
+    </p>
+    <H5>Vous etes prets ? trois d'un coup</H5>
+    <figure>
+        <img src="img/vive.jpg" alt="Un" />
+        <img src="img/les.jpg" alt="doigt" />
+        <img src="img/chips.jpg" alt="dans ton cul" />
+        <figcaption>yoooooolooooooooo</figcaption>
+    </figure>
+
+    </form>
+</body>
+</html>
